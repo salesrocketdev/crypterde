@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">    
+    
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Crypterde</title>
+</head>
+
+<body>
+    <header>
+        <a href="https://www.alura.com.br/" target="about_blank">
+            <img class="header-logo" src="img/logo.svg" alt="Alura logo">
+        </a>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="content-pre-text">
+                <div class="content-text">
+                    <textarea id="textarea-value" type="text" placeholder="Digite seu texto"></textarea>
+                </div>                
+
+                <div class="content-warning">
+                    <img src="img/exclamation.svg" alt="aviso">
+                    <p id="warning-text">Apenas letras minúsculas e sem acento.</p>
+                </div>
+
+                <div class="content-action">
+                    <button class="btn btn-crypt" title="Botão Criptografar" type="button">Criptografar</button>
+                    <button class="btn btn-decrypt" title="Botão Descriptografar" type="button">Descriptografar</button>    
+                </div>
+            </div>
+    
+            <div class="content-pos-text">
+                <div class="box">
+                    <img class="no-text-img" src="img/image1.svg" alt="Nenhuma mensagem encontrada">
+
+                    <h1 class="no-message">Nenhuma mensagem encontrada</h1>
+                    <p id="crypted-value">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <button class="btn btn-decrypt btn-copy hide-object" title="Botão Copiar" type="button">Copiar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Oracle Next Education - Challenge #01 - Desenvolvido por Caio Sales - <a href="https://github.com/salesrocketdev" target="about_blank">salesrocketdev</a></a></p>
+        </div>
+    </footer>
+
+    <script async src="js/script.js"></script>
+</body>
+
+</html>
